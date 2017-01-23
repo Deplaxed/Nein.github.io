@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^danknation\.ga$ [NC]
+RewriteRule ^(.*)$www.danknation.ga/$1 [R=301,L]
